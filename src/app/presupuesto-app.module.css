@@ -1,0 +1,89 @@
+/* presupuesto-app.module.css */
+
+/* Estilos para el componente Tabla.jsx */
+
+.visualizations {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .visualization {
+    flex: 1;
+    padding: 20px;
+    background-color: #f3ebeb; /* Color de fondo gris claro */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    margin: 0 10px; /* Margen entre las visualizaciones */
+    color: black; /* Color de letra negro */
+  }
+  
+  .visualization h2 {
+    font-size: 24px; /* Tamaño de fuente del título */
+    margin-bottom: 20px; /* Espaciado inferior */
+    color: #4CAF50; /* Color de texto verde */
+    text-align: center; /* Centrado del título */
+  }
+  
+  .visualization ul {
+    list-style: none; /* Quitar viñetas */
+    padding: 0; /* Eliminar relleno */
+  }
+  
+  .visualization ul li {
+    margin-bottom: 10px; /* Espaciado inferior */
+  }
+  
+  /* Estilos para el componente Lista.jsx */
+  
+  .bankForm {
+    background-color: #e9e5e5; /* Color de fondo */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Espaciado interno */
+    color: black; /* Color de letra negro */
+  }
+  
+  .bankForm label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .bankForm select,
+  .bankForm input[type="number"],
+  .bankForm input[type="text"],
+  .bankForm input[type="date"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 5px; /* Borde redondeado */
+  }
+  
+  .bankForm select {
+    appearance: none; /* Quitar el estilo nativo del select */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#4CAF50" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Icono de flecha personalizado */
+    background-repeat: no-repeat; /* No repetir */
+    background-position: right 10px center; /* Posición del icono */
+    background-size: 24px 24px; /* Tamaño del icono */
+    padding-right: 40px; /* Espacio para el icono */
+  }
+  
+  .bankForm label span {
+    color: #FF5722; /* Color rojo */
+  }
+  
+  .bankButton {
+    background-color: #4CAF50; /* Color verde */
+    color: black; /* Color de letra negro */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+  }
+  
+  .bankButton:hover {
+    background-color: #45a049; /* Cambia el color al pasar el ratón */
+  }
+  
